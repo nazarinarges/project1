@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+margin: 0;
+}
+body{
+
+}
+.container{
+    width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.section-icon{
+    width: 22px;
+    height: 22px;
+    color: blue;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.section-link{
+    text-decoration: none;
+    color: blue;
+}
+.row{
+    display: flex;
+    gap: 4px;
+}
+.product{
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.08);
+    padding: 25px;
+}
+.product-image{
+    width: 100%;
+}
+.product-name{
+    margin-top: 14px;
+    /* فاصله بین عنوان محصول و قیمت 67پیکسل */
+    height: 67px;
+    line-height: 1.6;
+}
+.product-link{
+    text-decoration: none; 
+    color: #111;   
+    font-size: 14px;
+    font-weight: normal;
+}
+.product-offer{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+}
+.product-offer-percent{
+    background-color: aqua;
+    color:blue;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.product-offer-price{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: rgb(189, 185, 185);
+}
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.product-price{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product-price-number{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-price-unit{
+    font-size: 14px;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product-rating-number{
+    font-size: 14px;
+    color: rgb(189, 185, 185);
+}
+.product-rating-icon{
+    color: yellow;
+    width: 18px;
+    height: 18px;
+
+}
